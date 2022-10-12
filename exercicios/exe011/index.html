@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinâmica</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmete aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1120px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto teste">
+    </picture>
+
+    <h1>reproduzindo aúdio</h1>
+    <p>Vamos aprender a colocar aúdio no HTML5</p>
+    <audio preload="metadata" controls >
+        <source src="midia/alienbeam.mp3" type="audio/mpeg">
+        <source src="midia/alienbeam.ogg" type="audio/ogg">
+        <source src="midia/alienbeam.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir aúdio. <a href="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex011/midia/guanacast-33.mp3">clique aqui para baixar o arquivo mp3</a></p>
+    </audio>
+</body>
+</html>
