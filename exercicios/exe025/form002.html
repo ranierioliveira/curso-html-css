@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> 
 </head>
 <body>
     <h1>Teste de formulário</h1>
-    <form action="cadastro.php" method="post" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="iusuario">Usuário:</label>
-            <input type="text" name="usuario" id="iusuario" required minlength="2" maxlength="8" size="10">
+            <input type="text" name="usuario" id="iusuario" required minlength="2" maxlength="8" size="10" placeholder="usuário" autocomplete="username">
         </p>
         <p>
             <label for="isenha">Senha:</label>
-            <input type="password" name="senha" id="isenha" required minlength="3" maxlength="15" >
+            <input type="password" name="senha" id="isenha" required minlength="3" maxlength="15" size="10" placeholder="senha">
         </p>
         <p>
             <input type="submit" value="Enviar">
