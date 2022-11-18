@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Formulário</h1>
-    <form action="cadastro.php">
+    <form action="cadastro.php" method="post">
         <p>
             <label for="iest">Estado</label> 
             <select name="estado" id="iest">
@@ -24,7 +24,24 @@
 
             </select>
         </p>
+
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option >Desenvolvedor</option>
+                <option >Professor</option>
+                <option 
+                >Administrador</option>
+                <option >Contabilista</option>
+            </datalist>
+        </p>
         
+        <p>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Apagar">
