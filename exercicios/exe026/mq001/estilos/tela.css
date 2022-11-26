@@ -1,6 +1,4 @@
-@charset "UTF-8" 
-
-/*Estilo para telas*/
+@charset "UTF-8";
 
 *{
     margin: 0px;
@@ -10,4 +8,32 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-}  
+   
+}
+
+header{
+    background-color: aquamarine;
+}
+header > h1{
+    text-align: center;
+}
+header > menu{
+    text-align: left;
+}
+
+menu ul{
+    background-color: aqua;
+    list-style-type: none;
+}
+
+menu li{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(53, 179, 179);
+    color: white;
+}
+
+article{
+    width: 500px;
+    margin: auto;
+}

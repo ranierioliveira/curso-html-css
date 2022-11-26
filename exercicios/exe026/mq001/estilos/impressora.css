@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 /*Estilo para impressoras*/
 
@@ -15,4 +15,8 @@ html{
 
 menu{
     display: none; 
+}
+
+article::after{
+    content: 'Este artigo foi publicado no site cursoemvideo.com/noticia';
 }
