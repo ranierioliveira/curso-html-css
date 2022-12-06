@@ -13,13 +13,28 @@ Grandes Telas: a partir de 1200px.
 @media print{
     *{
         font-family: 'Courier New', Courier, monospace;
+        
     }
     body{
         background-image: url('../imagens/back-print.jpg');/*Desecessário, pois não imprime background*/
-    }    
-    main{  
+    }  
+    main{
+        width: 90vw;
+        border: 2px solid black;
+    }  
+    main h1{  
         text-shadow: none;
         color: black;
+    }
+    img#phone{ display:none;}
+    img#tablet{ display: none;}
+    img#impressora{ display: block;}
+    img#pc{ display: none;}
+    img#tv{ display: none;}
+
+    main::after{
+        content:'Essa impressão foi feita através do site Curso em Vídeo';
+       
     }
 }
 
