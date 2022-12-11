@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*Tablet*/
+
+@media screen and (min-width:768px){
+
+body{
+    height: 100vh;
+}
+menu{
+    display: block;
+}
+span#burguer {
+    display: none;
+}
+menu > ul > li{
+    display: inline-block;
+}
+main{
+    width: 760px;
+}
+
+}
