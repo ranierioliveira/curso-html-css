@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*Tablet*/
+/*Outras mídias*/
 
 @media screen and (min-width:768px){
 
@@ -17,7 +17,7 @@ menu > ul > li{
     display: inline-block;
 }
 main{
-    width: 760px;
+    width: 700px;
 }
 
 }
