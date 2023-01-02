@@ -1,2 +1,3 @@
 # curso-html-css
- Exercícios do curso de HTML e CSS do Curso em Vídeo
+ Exercícios realizados a partir do curso de HTML e CSS do Curso em Vídeo
+ 
